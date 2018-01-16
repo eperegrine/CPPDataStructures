@@ -7,4 +7,4 @@ project(DataStructures)
 include_directories(public)
 file(GLOB SOURCES "private/*.cpp")
 
-add_executable(app ${SOURCES} main.cpp)
+add_executable(ds ${SOURCES} main.cpp)
