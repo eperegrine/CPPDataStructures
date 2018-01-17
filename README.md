@@ -4,15 +4,14 @@ Some basic datastructures written in c++. This is more of a learning exercise an
 
 What data structures
 ====================
-`x` = not done 
-`-` = in prgoress
+`*` = in prgoress
 
-- Stack -
-- Queue x
-- Linked List x
-- Graphs x
-- Trees x
-- Hash Stables x
+- [x] Stack *
+- [ ] Queue
+- [ ] Linked List
+- [ ] Graphs
+- [ ] Trees
+- [ ] Hash Stables
 
 How to run?
 -----------
