@@ -1,4 +1,3 @@
-#include <iostream>
 #include "Stack.hpp"
 
 #include <iostream>
