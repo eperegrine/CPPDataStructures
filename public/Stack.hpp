@@ -2,10 +2,15 @@
 #define STACK_H
 #include <string>
 
+#ifndef STACK_SIZE
+#define STACK_SIZE 10
+#endif // !STACK_SIZE
+
+
 class Stack
 {
 public:
-	Stack(int size=10);
+	Stack();
 	void push(int item);
 	int pop();
 	void print();
@@ -13,7 +18,7 @@ public:
 private:
 	int _size = 0;
 	int _pointer = 0;
-	int *int_stack[];
+	int int_stack[STACK_SIZE];
 };
 
 
