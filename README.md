@@ -6,7 +6,7 @@ What data structures
 ====================
 `*` = in prgoress
 
-- [x] Stack *
+- [x] Stack
 - [ ] Queue
 - [ ] Linked List
 - [ ] Graphs

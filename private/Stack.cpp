@@ -9,7 +9,7 @@ Stack::Stack()
 
 void Stack::print() {
 	int length = this->_pointer + 1;
-	for (int i = 0; i <= length; i++) {
+	for (int i = 0; i < length; i++) {
 		std::cout << this->int_stack[i];
 		if (!(i >= length - 1)) {
 			std::cout << ", ";
@@ -20,8 +20,8 @@ void Stack::print() {
 
 void Stack::push(int item) {
 	if (!this->is_full()) {
-		this->int_stack[this->_pointer] = item;
 		this->_pointer = this->_pointer + 1;
+		this->int_stack[this->_pointer] = item;
 	}
 }
 

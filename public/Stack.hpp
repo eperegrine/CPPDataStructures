@@ -1,6 +1,6 @@
 #ifndef STACK_H
 #define STACK_H
-#include <string>
+#include <iostream>
 
 #ifndef STACK_SIZE
 #define STACK_SIZE 10
@@ -20,7 +20,5 @@ private:
 	int _pointer = 0;
 	int int_stack[STACK_SIZE];
 };
-
-
 
 #endif // !STACK_H
