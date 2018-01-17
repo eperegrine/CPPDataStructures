@@ -1,5 +1,5 @@
-Data structures implented in C++
-================================
+Data structures implemented in C++
+==================================
 Some basic datastructures written in c++. This is more of a learning exercise and is not reccomeneded for actual use - many have already been implemented more efficiently and reliably
 
 What data structures
